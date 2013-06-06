@@ -47,7 +47,8 @@ Returns the elapsed time in days.
 
 ##Example
 
-The following is an example of using StopWatch:
+The following is an example of using StopWatch. A demo of the code below can be found on
+[jsFiddle](http://jsfiddle.net/decoy31/qNaV3/).
 
 ```javascript
 // Initialize a new instance of the StopWatch class.
@@ -70,5 +71,3 @@ setTimeout(function () {
     
 }, 3000);
 ```
-
-Demo of the above code can be found here: [jsFiddle](http://jsfiddle.net/decoy31/qNaV3/).
