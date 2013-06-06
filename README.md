@@ -10,21 +10,21 @@ var stopWatch = new StopWatch();
 
 ###startTime
 
-_Type:_ Date
+_Type: Date_
 
 Start date and time for the stopwatch timer.
 
 
 ###endTime
 
-_Type:_ Date
+_Type: Date_
 
 End date and time for the stopwatch timer.
 
 
 ###difference
 
-_Type:_ Number
+_Type: Number_
 
 Calculated difference between the __[startTime](#startTime)__ and __[endTime](#endTime)__.
 
@@ -33,21 +33,21 @@ Calculated difference between the __[startTime](#startTime)__ and __[endTime](#e
 
 ###start()
 
-_Return Type:_ StopWatch
+_Return Type: StopWatch_
 
 "Starts" the stopwatch timer.
 
 
 ###stop()
 
-_Return Type:_ StopWatch
+_Return Type: StopWatch_
 
 "Stops" the stopwatch timer and calculates the __[difference](#difference)__.
 
 
 ###clear()
 
-_Return Type:_ StopWatch
+_Return Type: StopWatch_
 
 Resets the stopwatch timer.
 
@@ -55,35 +55,35 @@ Resets the stopwatch timer.
 
 ###getMilliseconds()
 
-_Return Type:_ Number
+_Return Type: Number_
 
 Returns the elapsed time in milliseconds.
 
 
 ###getSeconds()
 
-_Return Type:_ Number
+_Return Type: Number_
 
 Returns the elapsed time in seconds.
 
 
 ###getMinutes()
 
-_Return Type:_ Number
+_Return Type: Number_
 
 Returns the elapsed time in minutes.
 
 
 ###getHours()
 
-_Return Type:_ Number
+_Return Type: Number_
 
 Returns the elapsed time in hours.
 
 
 ###getDays()
 
-_Return Type:_ Number
+_Return Type: Number_
 
 Returns the elapsed time in days.
 
