@@ -2,6 +2,10 @@
 
 A simple JavaScript stopwatch class.
 
+```javascript
+var stopWatch = new StopWatch();
+```
+
 ##Properties
 
 ###startTime
