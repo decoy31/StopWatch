@@ -117,7 +117,7 @@ setTimeout(function () {
 
 ##Chaining
 
-Optionally, in the [Example section](#Example) you could combine the "watch.stop" function call with the "console.log" 
+Optionally, in the [Example section](#example) you could combine the "watch.stop" function call with the "console.log" 
 statement by chaining the "getMilliseconds" function call after the "watch.stop" function call and still get the same 
 result like so:
 
