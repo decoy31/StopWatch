@@ -26,7 +26,7 @@ End date and time for the stopwatch timer.
 
 _Type: Number_
 
-Calculated difference between the __[startTime](#startTime)__ and __[endTime](#endTime)__.
+Calculated difference between the __[startTime](#starttime)__ and __[endTime](#endtime)__.
 
 
 ##Methods
