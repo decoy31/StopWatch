@@ -2,39 +2,48 @@
 
 A simple JavaScript stopwatch class.
 
+##Properties
+
+###startTime
+__Type:__ Date
+
+Start date and time for the stopwatch timer.
+
+###endTime
+__Type:__ Date
+
+End date and time for the stopwatch timer.
+
+###difference
+__Type:__ Number
+
+Calculated difference between the __[startTime](#startTime)__ and __[endTime](#endTime)__.
+
 ##Methods
 
 ###start()
 "Starts" the stopwatch timer.
 
-
 ###stop()
-"Stops" the stopwatch timer and calculates the difference.
-
+"Stops" the stopwatch timer and calculates the __[difference](#difference)__.
 
 ###clear()
 Resets the stopwatch timer.
 
-
 ###getMilliseconds()
 Returns the elapsed time in milliseconds.
-
 
 ###getSeconds()
 Returns the elapsed time in seconds.
 
-
 ###getMinutes()
 Returns the elapsed time in minutes.
-
 
 ###getHours()
 Returns the elapsed time in hours.
 
-
 ###getDays()
 Returns the elapsed time in days.
-
 
 ##Example
 
