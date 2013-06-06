@@ -75,7 +75,7 @@ StopWatch.prototype = {
     /**
      * Returns the elapsed time in minutes.
      *
-     * @returns {number|undefined} Returns the number of elapsed minutes
+     * @returns {number} Returns the number of elapsed minutes
      *      or if the StopWatch instance was never "started" or "stopped", returns
      *      -1.
      */
@@ -86,7 +86,7 @@ StopWatch.prototype = {
     /**
      * Returns the elapsed time in hours.
      *
-     * @returns {number|undefined} Returns the number of elapsed hours
+     * @returns {number} Returns the number of elapsed hours
      *      or if the StopWatch instance was never "started" or "stopped", returns
      *      -1.
      */
@@ -97,7 +97,7 @@ StopWatch.prototype = {
     /**
      * Returns the elapsed time in days.
      *
-     * @returns {number|undefined} Returns the number of elapsed days
+     * @returns {number} Returns the number of elapsed days
      *      or if the StopWatch instance was never "started" or "stopped", returns
      *      -1.
      */
