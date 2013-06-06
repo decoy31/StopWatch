@@ -7,26 +7,34 @@ A simple JavaScript stopwatch class.
 ###start()
 "Starts" the stopwatch timer.
 
+
 ###stop()
 "Stops" the stopwatch timer and calculates the difference.
+
 
 ###clear()
 Resets the stopwatch timer.
 
+
 ###getMilliseconds()
 Returns the elapsed time in milliseconds.
+
 
 ###getSeconds()
 Returns the elapsed time in seconds.
 
+
 ###getMinutes()
 Returns the elapsed time in minutes.
+
 
 ###getHours()
 Returns the elapsed time in hours.
 
+
 ###getDays()
 Returns the elapsed time in days.
+
 
 ##Example
 
