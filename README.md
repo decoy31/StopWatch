@@ -115,10 +115,13 @@ setTimeout(function () {
 }, 3000);
 ```
 
-Optionally, you could combine the "watch.stop" function call with the "console.log" statement by chaining the 
-"getMilliseconds" function call after the "watch.stop" function call and still get the same result like so:
+##Chaining
+
+Optionally, in the [Example seciont](#Example) you could combine the "watch.stop" function call with the "console.log" 
+statement by chaining the "getMilliseconds" function call after the "watch.stop" function call and still get the same 
+result like so:
 
 ```javascript
-// Example of chaining.
+// Example of chaining with StopWatch.
 console.log('Elasped time: ' + watch.stop().getMilliseconds() + 'ms');
 ```
