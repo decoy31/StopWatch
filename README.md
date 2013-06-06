@@ -126,4 +126,4 @@ result like so:
 console.log('Elasped time: ' + watch.stop().getMilliseconds() + 'ms');
 ```
 
-Chaining can be used for any of the StopWatch method calls that return the current StopWatch instance.
+Chaining can be used for any of the StopWatch method calls which return the current StopWatch instance.
