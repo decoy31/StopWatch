@@ -33,11 +33,14 @@ Returns the elapsed time in days.
 The following is an example of using StopWatch:
 
 ```javascript
-var watch = new StopWatch();
-watch.start();
+var watch = new StopWatch(); // Initialize a new instance of the StopWatch class.
+watch.start(); // "Start" the stopwatch timer.
+
 setTimeout(function () {
-  watch.stop();
-}, 3000);
-console.log('Elasped time: ' + watch.getMilliseconds() + 'ms'); // Console should: Elapsed time 3000ms
-watch.clear(); // optional
+    watch.stop(); // "Stop" the stopwatch timer and calculate the difference.
+    console.log('Elasped time: ' + watch.getMilliseconds() + 'ms'); // Console should approx. read: Elapsed time: 3000ms
+    watch.clear(); // optional
+}, 3000); // 3000ms (or 3 seconds)
 ```
+
+Demo of the above code can be found here: [jsFiddle](http://jsfiddle.net/decoy31/qNaV3/).
