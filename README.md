@@ -117,7 +117,8 @@ setTimeout(function () {
 
 ##Chaining
 
-Optionally, in the [Example section](#example) you could combine the "watch.stop" function call with the "console.log" 
+Chaining can be used for any of the StopWatch method calls which return the current StopWatch instance. For instance, 
+in the [Example section](#example) you could combine the "watch.stop" function call with the "console.log" 
 statement by chaining the "getMilliseconds" function call after the "watch.stop" function call and still get the same 
 result like so:
 
@@ -125,5 +126,3 @@ result like so:
 // Example of chaining with StopWatch.
 console.log('Elasped time: ' + watch.stop().getMilliseconds() + 'ms');
 ```
-
-Chaining can be used for any of the StopWatch method calls which return the current StopWatch instance.
