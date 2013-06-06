@@ -17,7 +17,7 @@ End date and time for the stopwatch timer.
 ###difference
 __Type:__ Number
 
-Calculated difference between the __[startTime][]__ and __[endTime][]__.
+Calculated difference between the __[startTime][startTime]__ and __[endTime][endTime]__.
 
 ##Methods
 
@@ -25,7 +25,7 @@ Calculated difference between the __[startTime][]__ and __[endTime][]__.
 "Starts" the stopwatch timer.
 
 ###stop()
-"Stops" the stopwatch timer and calculates the __[difference][]__.
+"Stops" the stopwatch timer and calculates the __[difference][difference]__.
 
 ###clear()
 Resets the stopwatch timer.
