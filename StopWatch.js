@@ -53,23 +53,23 @@ StopWatch.prototype = {
     /**
      * Returns the elapsed time in milliseconds.
      *
-     * @returns {number|undefined} Returns the number of elapsed milliseconds
+     * @returns {number} Returns the number of elapsed milliseconds
      *      or if the StopWatch instance was never "started" or "stopped", returns
-     *      undefined.
+     *      -1.
      */
     getMilliseconds: function () {
-        return this.difference;
+        return typeof this.difference === 'number' ? this.difference : -1;
     },
 
     /**
      * Returns the elapsed time in seconds.
      *
-     * @returns {number|undefined} Returns the number of elapsed seconds
+     * @returns {number} Returns the number of elapsed seconds
      *      or if the StopWatch instance was never "started" or "stopped", returns
-     *      undefined.
+     *      -1.
      */
     getSeconds: function () {
-        return Math.floor(this.difference % 60000 / 1000);
+        return typeof this.difference === 'number' ? Math.floor(this.difference % 60000 / 1000) : -1;
     },
 
     /**
@@ -77,10 +77,10 @@ StopWatch.prototype = {
      *
      * @returns {number|undefined} Returns the number of elapsed minutes
      *      or if the StopWatch instance was never "started" or "stopped", returns
-     *      undefined.
+     *      -1.
      */
     getMinutes: function () {
-        return Math.floor(this.difference % 36e5 / 60000);
+        return typeof this.difference === 'number' ? Math.floor(this.difference % 36e5 / 60000) : -1;
     },
 
     /**
@@ -88,10 +88,10 @@ StopWatch.prototype = {
      *
      * @returns {number|undefined} Returns the number of elapsed hours
      *      or if the StopWatch instance was never "started" or "stopped", returns
-     *      undefined.
+     *      -1.
      */
     getHours: function () {
-        return Math.floor(this.difference / 36e5);
+        return typeof this.difference === 'number' ? Math.floor(this.difference / 36e5) : -1;
     },
 
     /**
@@ -99,9 +99,9 @@ StopWatch.prototype = {
      *
      * @returns {number|undefined} Returns the number of elapsed days
      *      or if the StopWatch instance was never "started" or "stopped", returns
-     *      undefined.
+     *      -1.
      */
     getDays: function () {
-        return this.getHours() / 24;
+        return typeof this.difference === 'number' ? this.getHours() / 24 : -1;
     }
 };
